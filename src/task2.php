@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Php Basics Program</title>
+    <title>Sum</title>
 </head>
 <body>
-   <button><a href="./task1.php">Count 5 To15</a></button>
-   <button><a href="./task2.php">Sum of 2 number</a></button>
+    <h1>Write a program to perform sum or addition of two numbers in PHP programmin</h1>
+    <?php 
+    $x = 2;
+    $y = 3;
+    echo $x + $y;
+    ?>
 </body>
 </html>
