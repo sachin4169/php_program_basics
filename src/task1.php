@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Php Basics Program</title>
+    <title>Loop</title>
 </head>
 <body>
-   <button><a href="./task1.php">Loop</a></button>
+    <h1>Write a Program to display count, from 5 to 15 using PHP loop as given below.</h1>
+    <?php 
+    for($i=5;$i<16;$i++){
+        echo $i."<br>";
+    }
+    ?>
 </body>
 </html>
