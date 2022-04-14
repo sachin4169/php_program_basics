@@ -13,6 +13,6 @@
    <button><a href="./task4.php">echo 2 variables</a></button>
    <button><a href="./task5.php">student grade</a></button>
    <button><a href="./task6.php">Switch case</a></button>
-   
+   <button><a href="./task7.php">factorial</a></button>
 </body>
 </html>
