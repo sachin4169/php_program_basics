@@ -15,8 +15,12 @@
         <li>Day 1 will be considered as Monday</li>
         <li>If number is not between 1 to 7, show invalid number in default</li>
     </ul>
+    <form action="" method="get">
+        <input type="number" name="num1" placeholder="enter number between 1 to 7">
+        <input type="submit" value="submit" >
+    </form>
     <?php
-    $num = 7;
+    $num = $_GET["num1"];
     switch ($num) {
         case 1:
             echo "Monday";

@@ -15,8 +15,24 @@
         <li>If marks are less than 33%, student will be Fail.</li>
     </ul>
 
+    <form action="" method="get">
+        <label for="">Hindi</label><br>
+        <input type="number" name="Hindi" placeholder="enter marks"><br>
+        <label for="">Engils</label><br>
+        <input type="number" name="English" placeholder="enter marks"><br>
+        <label for="">Math</label><br>
+        <input type="number" name="Maths" placeholder="enter marks"><br>
+        <label for="">Science</label><br>
+        <input type="number" name="Science" placeholder="enter marks"><br>
+        <input type="submit" value="submit">
+    </form>
     <?php 
-    $marks = 33;
+    $Hindi = $_GET['Hindi'];
+    $English = $_GET['English'];
+    $Maths = $_GET['Maths'];
+    $Science = $_GET['Science'];
+    $marks = ($Hindi+$English+$Maths+$Science)*100/400;
+    echo "<h2>marks obtain : $marks %</h2>";
     if($marks >= 60 ){
         echo "First Division";
     }elseif($marks <= 59 && $marks >=45){
