@@ -10,5 +10,7 @@
    <button><a href="./task1.php">Count 5 To15</a></button>
    <button><a href="./task2.php">Sum of 2 number</a></button>
    <button><a href="./task3.php">String variable</a></button>
+   <button><a href="./task4.php">echo 2 variables</a></button>
+   
 </body>
 </html>
